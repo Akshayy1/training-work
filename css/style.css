@@ -587,6 +587,11 @@ body{
 {
     /* border: 1px solid; */
     width: 50%;
+    animation-name: droped;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+    
+    
 }
 .whitee
 {
@@ -1065,6 +1070,17 @@ body{
     to 
  {
     transform: rotateY(360deg);
+    }
+}
+@keyframes droped
+{
+    from
+    {
+         transform: rotateY(90deg);
+    }
+    to 
+ {
+    transform: rotateY(360);
     }
 }
 /* js regarding class */
